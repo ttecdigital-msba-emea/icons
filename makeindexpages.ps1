@@ -4,7 +4,7 @@ function Generate-IndexHtml {
     )
 
     $subDirs = Get-ChildItem -Directory -Path $folderPath
-    $files = Get-ChildItem -File -Path $folderPath -Exclude index.html
+    $files = Get-ChildItem -File -Path $folderPath
 
     $htmlContent = @"
 <!DOCTYPE html>
