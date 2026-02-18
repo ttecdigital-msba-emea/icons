@@ -49,5 +49,48 @@ function Generate-IndexHtml {
     }
 }
 
+function Generate-IndexMarkdown {
+    param (
+        [string]$folderPath
+    )
+
+    $subDirs = Get-ChildItem -Directory -Path $folderPath
+    $files = Get-ChildItem -File -Path $folderPath
+
+    $folderName = Split-Path -Leaf $folderPath
+    $markdownContent = "# Index of $folderName`n`n"
+
+    if ($subDirs.Count -gt 0) {
+        $markdownContent += "## Directories`n`n"
+        foreach ($dir in $subDirs) {
+            $markdownContent += "- 📁 [$($dir.Name)]($($dir.Name)/index.md)`n"
+        }
+        $markdownContent += "`n"
+    }
+
+    if ($files.Count -gt 0) {
+        $markdownContent += "## Files`n`n"
+        foreach ($file in $files) {
+            if ($file.Extension -eq ".png" -or $file.Extension -eq ".svg") {
+                $markdownContent += "- ![icon]($($file.Name)) [$($file.Name)]($($file.Name))`n"
+            } else {
+                $markdownContent += "- 📄 [$($file.Name)]($($file.Name))`n"
+            }
+        }
+    }
+
+    $indexPath = Join-Path -Path $folderPath -ChildPath "index.md"
+    $markdownContent | Out-File -FilePath $indexPath -Encoding utf8
+
+    foreach ($dir in $subDirs) {
+        Generate-IndexMarkdown -folderPath $dir.FullName
+    }
+}
+
 # Use $PSScriptRoot to refer to the script's directory
 Generate-IndexHtml -folderPath $PSScriptRoot
+Generate-IndexMarkdown -folderPath $PSScriptRoot
+
+Write-Host "Index files generated successfully!" -ForegroundColor Green
+Write-Host "HTML: index.html files created in each directory" -ForegroundColor Cyan
+Write-Host "Markdown: index.md files created in each directory" -ForegroundColor Cyan

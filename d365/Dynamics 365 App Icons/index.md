@@ -1,0 +1,32 @@
+# Index of Dynamics 365 App Icons
+
+## Files
+
+- ![icon](BusinessCentral_scalable.svg) [BusinessCentral_scalable.svg](BusinessCentral_scalable.svg)
+- ![icon](Commerce_scalable.svg) [Commerce_scalable.svg](Commerce_scalable.svg)
+- ![icon](ConnectedStore_scalable.svg) [ConnectedStore_scalable.svg](ConnectedStore_scalable.svg)
+- ![icon](ContactCenter_scalable.svg) [ContactCenter_scalable.svg](ContactCenter_scalable.svg)
+- ![icon](CoreHR_scalable.svg) [CoreHR_scalable.svg](CoreHR_scalable.svg)
+- ![icon](CustomerInsights_scalable.svg) [CustomerInsights_scalable.svg](CustomerInsights_scalable.svg)
+- ![icon](CustomerService_scalable.svg) [CustomerService_scalable.svg](CustomerService_scalable.svg)
+- ![icon](CustomerServiceInsights_scalable.svg) [CustomerServiceInsights_scalable.svg](CustomerServiceInsights_scalable.svg)
+- ![icon](CustomerVoice_scalable.svg) [CustomerVoice_scalable.svg](CustomerVoice_scalable.svg)
+- ![icon](FieldService_scalable.svg) [FieldService_scalable.svg](FieldService_scalable.svg)
+- ![icon](Finance_scalable.svg) [Finance_scalable.svg](Finance_scalable.svg)
+- ![icon](Finance+Operations_scalable.svg) [Finance+Operations_scalable.svg](Finance+Operations_scalable.svg)
+- ![icon](FraudProtection_scalable.svg) [FraudProtection_scalable.svg](FraudProtection_scalable.svg)
+- 📄 [index.html](index.html)
+- ![icon](IntelligentOrderManagement_scalable (1).svg) [IntelligentOrderManagement_scalable (1).svg](IntelligentOrderManagement_scalable (1).svg)
+- ![icon](Marketing_scalable.svg) [Marketing_scalable.svg](Marketing_scalable.svg)
+- ![icon](MarketInsights_scalable.svg) [MarketInsights_scalable.svg](MarketInsights_scalable.svg)
+- ![icon](Product_Insights__scalable.svg) [Product_Insights__scalable.svg](Product_Insights__scalable.svg)
+- ![icon](ProjectOperations_scalable.svg) [ProjectOperations_scalable.svg](ProjectOperations_scalable.svg)
+- ![icon](ProjectServiceAutomation_scalable.svg) [ProjectServiceAutomation_scalable.svg](ProjectServiceAutomation_scalable.svg)
+- ![icon](Sales_scalable.svg) [Sales_scalable.svg](Sales_scalable.svg)
+- ![icon](SalesInsights_scalable.svg) [SalesInsights_scalable.svg](SalesInsights_scalable.svg)
+- ![icon](SupplyChainManagement_scalable.svg) [SupplyChainManagement_scalable.svg](SupplyChainManagement_scalable.svg)
+- ![icon](SustainabilityCalculator_scalable.svg) [SustainabilityCalculator_scalable.svg](SustainabilityCalculator_scalable.svg)
+- ![icon](Talent_scalable.svg) [Talent_scalable.svg](Talent_scalable.svg)
+- ![icon](TalentAttract_scalable.svg) [TalentAttract_scalable.svg](TalentAttract_scalable.svg)
+- ![icon](TalentOnboard_scalable.svg) [TalentOnboard_scalable.svg](TalentOnboard_scalable.svg)
+
